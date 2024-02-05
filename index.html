@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="music.png">
+        </header>
+        <main>
+            <h2>Media Player</h2>
+            <p id="title">Radio 1</p>
+        </main>
+        <div class="content">
+            <div class="icon">
+                <img src="back.png" id="back">
+                <img src="play.png" id="play">
+                <img src="next.png" id="next">
+                <audio id="audio"></audio>
+            </div>
+            <div class="remote">
+                <h3>- volume +</h3>
+                <input type="range" id="vol">
+                <h3>speed</h3>
+                <input type="range" id="speed" min="0" max="200">
+            </div>
+            <div class="buttons">
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                <button id="color4"></button>
+            </div>
+        </div>
+
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>

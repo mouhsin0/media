@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: #ffe2f2; */
+    text-align: center;
+}
+.container header img{
+    width: 150px;
+    margin-block: 2rem  1.5rem;
+}
+.container main h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.container main p{
+    /* color: grey; */
+    font-size: 20px;
+}
+.container .content .icon img{
+    width: 30px;
+    margin-inline: 10px;
+}
+.container .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-block: 20px;
+    background: rgb(217, 212, 212);
+    border-radius: 10px;
+    height: 405px;
+}
+.icon, .remote{
+    margin-block: 30px;
+}
+.remote input{
+    width: 100%;
+    margin-block: 20px;
+    appearance: none;
+}
+#next:active{
+    transform: scale(0.8);
+}
+#back:active{
+    transform: scale(0.8);
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-inline: 5px;
+}
+#color1{
+    background: black;
+}
+#color2{
+    background: white;
+}
+#color3{
+    background: rgb(30 210 229 / 69%);
+}
+#color4{
+    background:rgb(166 119 115);
+}
